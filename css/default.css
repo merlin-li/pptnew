@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* ===================================================================
+
+CSS information
+ file name  :  default.css
+ style info :  リセット及びbody初期設定 (このスタイルシートは基本的に変更しない)
+ 
+=================================================================== */
+
+
+/* -----------------------------------------------------------------------------
+	0. universal
+----------------------------------------------------------------------------- */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,
+legend,input,textarea,p,blockquote,address,caption,table,th,td,img {
+	margin  : 0;
+	padding : 0;
+	}
+
+/* -----------------------------------------------------------------------------
+	1. html, body, a
+----------------------------------------------------------------------------- */
+
+a:link {
+	color           : #fff;
+	text-decoration : none;
+	}
+a:visited {
+	color           : #fff;
+	text-decoration : none;
+	}
+a:hover {
+	color           : #fff;
+	text-decoration : none;
+	}
+a:active {
+	}
+
+/* -----------------------------------------------------------------------------
+	2. inline elements
+----------------------------------------------------------------------------- */
+
+img {
+	border         : none;
+	vertical-align : bottom;
+	line-height    : 0;
+	}
+embed, object {
+	outline        : none;
+	}
+object {
+	vertical-align : middle;
+	outline        : none;
+	}
+address, caption, cite, code, dfn, th, var {
+	font-weight    : normal;
+	font-style     : normal;
+	}
+em, strong {
+	font-weight    : bold;
+	font-style     : normal;
+	}
+sup {
+	vertical-align : text-top;
+	}
+sub {
+	vertical-align : text-bottom;
+	}
+fieldset {
+	border         : none;
+	}
+input, textarea, select, label {
+	font-size      : 100%;
+	font-family    : inherit;
+	vertical-align : middle;
+	}
+label {
+	cursor         : pointer;
+	}
+textarea {
+	overflow       : auto;
+	}
+
+/* -----------------------------------------------------------------------------
+	3. block elements
+----------------------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font-size    : 100%;
+	font-weight  : normal;
+	line-height  : 1;
+	}
+hr {
+	display      : none;
+	}
+
+q:before, q:after {
+	content      : '';
+	}
+abbr, acronym {
+	border       : none;
+	font-variant : normal;
+	}
+ul, ol {
+	list-style   : none;
+	}
+
+/* -----------------------------------------------------------------------------
+	4. table elements
+----------------------------------------------------------------------------- */
+table {
+	border-collapse : collapse;
+	border-spacing  : 0;
+	}
+caption, th, td {
+	text-align      : left;
+	vertical-align  : top;
+	}
+
+/* -----------------------------------------------------------------------------
+	5. html5 elements(not use)
+----------------------------------------------------------------------------- */
+header, nav, aside, section, article, footer,
+address,figure,figcaption,hgroup,hr,legend,menu,summary {
+	display : block;
+	}
+
+body {
+	font        : 13px/1.231 arial,helvetica,clean,sans-serif;
+	*font-size  : small; /* for IE */
+	*font       : x-small; /* for IE in quirks mode */
+	}
+select, input, button, textarea {
+	font        : 99% arial,helvetica,clean,sans-serif;
+	}
+table {
+	font-size   : inherit;
+	font        : 100%;
+	}
+pre, code, kbd, samp, tt {
+	font-family : monospace;
+	*font-size  : 108%;
+	line-height : 100%;
+	}
